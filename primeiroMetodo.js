@@ -23,22 +23,22 @@ function numberDefeats()
 let balance = numberVictories() - numberDefeats()
 let nivel = " "
 
-if (balance < 10)
+if (balance <= 10)
 {
 	nivel = "ferro"
 }
 
-else if (balance < 20)
+else if (balance <= 20)
 {
 	nivel = "bronze"
 }
 
-else if (balance < 50)
+else if (balance <= 50)
 {
 	nivel = "prata"
 }
 
-else if (balance < 80)
+else if (balance <= 80)
 {
 	nivel = "ouro"
 }
